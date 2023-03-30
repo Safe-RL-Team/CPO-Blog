@@ -1,6 +1,6 @@
 {
 	"homepage": "https://safe-rl-team.github.io/CPO-Blog/",
-	"name": "CPO-Blog",
+	"name": "differentiable-parameterizations",
 	"private": true,
 	"scripts": {
 		"predeploy": "npm run build",
