@@ -2,12 +2,18 @@
 	"title": "Constrained Policy Optimization",
 	"description": "An example project using Webpack, Babel, and Svelte.",
 	"authors": [
+	"authors": [
+		{
+			"author": "Paul Hasenbusch 398475",
+			"authorURL": "",
+			"affiliation": "TU Berlin",
+			"affiliationURL": "https://tu.berlin/"
+		},
 		{
 			"author": "Thanh Cuong Le 407996",
-			"author": "Paul Hasenbusch 398475",
-			"authorURL": "https://schubert.io/",
-			"affiliation": "OpenAI",
-			"affiliationURL": "https://openai.com"
+			"authorURL": "",
+			"affiliation": "TU Berlin",
+			"affiliationURL": "https://tu.berlin/"
 		}
 	],
 	"katex": {
