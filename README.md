@@ -2,8 +2,8 @@
 
 # Setup
 
-Clone this repository: git clone …
-Install npm (Node Packet Manager). If you're on a Mac and have brew: brew install node will do the job.
-cd curriculum-learning into the root directory of this project.
-npm install to install dependencies.
-Execute npm run dev to run a development server that autoreloads when you make changes to the article ("hot-reloading"). The console output will link you to a hot-reloading preview of the article.
+###Clone this repository: git clone …
+###Install npm (Node Packet Manager). If you're on a Mac and have brew: brew install node will do the job.
+###cd curriculum-learning into the root directory of this project.
+###npm install to install dependencies.
+### Execute npm run dev to run a development server that autoreloads when you make changes to the article ("hot-reloading"). The console output will link you to a hot-reloading preview of the article.
