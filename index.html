@@ -95,12 +95,18 @@ d-figure > figure {
   </d-title>
 
   <d-article>
-
+	  <h3> Abstract </h3>
     <p>
       Welcome to our paper on constraint policy optimization (CPO). 
       In this article, we will discuss the CPO method for safe reinforcement learning, 
       which was presented in Achiam et al. <d-cite
-      key="achiam2017constrained"></d-cite> 
+      key="achiam2017constrained"></d-cite>.
+	Constrained policy optimization is a policy search algorithm for
+constrained Markov decision processes (CMDPs). According to Achiam et al. <d-cite
+      key="achiam2017constrained"></d-cite> it is the first such algorithm able to guarantee constraint satisfaction during training.
+	    Which is a huge upside compared to prior policy search algorithms 
+	    for CMDPs as the one proposed in Chow et al. <d-cite
+      key="chow"></d-cite>, that were only able to guarantee convergence towards a safe behaviour.
       Inspired by the authors' idea, we use CPO to train two safe AI models for the OpenAI environments: CartPole and LunarLander.
       
       <br> 
@@ -153,8 +159,7 @@ d-figure > figure {
   <p> In this section we briefly describe how one derives the practical implementation of the CPO algorithm from the theoretical framework Achiam et al. <d-cite
         key="achiam2017constrained"></d-cite> have build .</p>
   <h4>Abstract theory</h4>
-  <p>Constrained policy optimization (CPO) is a policy search algorithm for
-constrained Markov decision processes (CMDPs). The authors of Achiam et al. <d-cite
+  <p> The authors of Achiam et al. <d-cite
         key="achiam2017constrained"></d-cite> derive an update step which theoretically guarantees constraint satisfaction whilst not decreasing the reward function. For details we refer to their paper <d-cite
         key="achiam2017constrained"></d-cite>. In each iteration $k = 1,2, ...$ to obtain a new policy $\pi_{k+1}$ a problem of the following kind is approximately solved </p>
 <d-math block="">
