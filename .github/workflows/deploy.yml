@@ -15,14 +15,20 @@ jobs:
         with:
           node-version: '16.x'
 
-      - name: Install dependencies
-        run: npm install
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - name: Build
-        run: npm run build
-
+        run: |
+          npm install
+          npm run build
+      
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          publish_dir: ./dist
+
