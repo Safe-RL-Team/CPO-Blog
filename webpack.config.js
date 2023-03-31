@@ -4,7 +4,6 @@ var HtmlWebpackPlugin = require("html-webpack-plugin");
 var CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-	mode: 'deployment',
 
 	entry: {
 		index: "./src/index.js",
