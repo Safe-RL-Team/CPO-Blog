@@ -1,10 +1,7 @@
 {
-	"homepage": "https://safe-rl-team.github.io/CPO-Blog/",
 	"name": "differentiable-parameterizations",
 	"private": true,
 	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
 		"dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
 		"build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
 		"profile": "cross-env NODE_ENV=production webpack --profile --json > webpack-stats.json"
